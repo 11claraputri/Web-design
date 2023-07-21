@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+    <title>Web</title>
+</head>
+
+<body>
+    <button id="hamburger" class="hamburger " onclick="handleNav()"></button>
+    <nav id="main-nav" class="main-nav">
+        <a href="#" onclick="handleNav()">Home</a>
+        <a href="#" onclick="handleNav()">About</a>
+        <a href="#" onclick="handleNav()">Creator</a>
+        <a href="#" onclick="handleNav()">Support</a>
+    </nav>
+    <main class="home">
+        <section class="home_info">
+            <header class="home_header">
+                <h1 class="home_title">Youtube Creator</h1>
+                <span class="home_spacer"></span>
+                <p class="home_subtext">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ipsa deserunt,
+                    distinctio praesentium numquam illo architecto omnis quod, rem maiores sed. In
+                    quod saepe amet harum nesciunt aliquid quaerat maxime!
+                </p>
+                <a href="" class="home_cta">Support a Creator</a>
+            </header>
+        </section>
+        <section class="home_cards">
+            <div class="group-one">
+                <div class="home_card home_card--square">
+                    <header>
+                        <img src="./images/eko-profile.jpg" alt="Eko Brownly">
+                        <h3><a href="#">Eko Brownly</a></h3>
+                    </header>
+                </div>
+                <div class="home_card home_card--large">
+                    <header>
+                        <img src="./images/jana-profile.jpg" alt="Ella Jana">
+                        <h3><a href="#">Ella Jana</a></h3>
+                    </header>
+                </div>
+            </div>
+            <div class="group-two">
+                <div class="home_card home_card--square">
+                    <header>
+                        <img src="./images/siti-profile.jpg" alt="Siti">
+                        <h3><a href="#">Siti</a></h3>
+                    </header>
+                </div>
+                <div class="home_card home_card--large">
+                    <header>
+                        <img src="./images/ema-profile.jpg" alt="Ema Dobson">
+                        <h3><a href="#">Ema Dobson</a></h3>
+                    </header>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script type="text/javascript" src="./function.js"></script>
+</body>
+
+</html>
